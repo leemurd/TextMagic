@@ -1,0 +1,24 @@
+@import url('../fonts/SegoeUi/style.css');
+@import './vars';
+
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+html, body {
+  background: #F7F7FC;
+  //font-family: 'Segoe UI', sans-serif;
+  font-family: Segoe UI,SegoeUI,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    opacity: 0.85;
+  }
+}
