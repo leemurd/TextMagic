@@ -71,7 +71,7 @@ export default defineComponent({
   flex-direction: column;
   align-items: center;
   padding: 24px 0;
-  background-image: url("src/assets/imgs/account_bg.jpg");
+  background-image: url("@/assets/imgs/account_bg.jpg");
   background-size: cover;
   background-position: center;
 }
